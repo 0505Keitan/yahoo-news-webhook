@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "RSS",
+      "script": "index.js",
+      "exec_mode": "fork",
+      "autorestart": true
+    }
+  ]
+}
