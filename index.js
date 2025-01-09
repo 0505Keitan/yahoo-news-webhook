@@ -72,6 +72,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - 主要');
         //if(title.match(/LINE/)) post('https://discord.com/api/webhooks/826046963555500032/Q5zu7NBLjJcQ-8o3x_Dl5LWqQ8a3L5ss1itA_9GQ-gaV6zd4TP51yjIhNTIf-jrDR_k3', msg);
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -96,6 +97,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - 国内');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - 国内');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -120,6 +122,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - 国際');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - 国際');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -144,6 +147,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - 経済');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - 経済');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -168,6 +172,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - エンタメ');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - エンタメ');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -192,6 +197,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - スポーツ');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - スポーツ');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -216,6 +222,7 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - IT');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - IT');
         sleep(1000);
+        saveLog();
       }
     });
   });
@@ -240,10 +247,10 @@ const getNews = () => {
         post('https://discordapp.com/api/webhooks/734646961579491358/bMaJ87SlzY8u_x7Y660Iax7QbQdOXTbqKYN1m_WB05GE4_3kTf9r_WVyilhS8-7K9FYa', msg, 'Yahoo! News Pickup - 科学');
         post('https://discordapp.com/api/webhooks/734734649896599552/59QG3-l2nYMDpzEM4smbLd_ZO1mpl2m8ntkCjOXOmqugQ40pcBZA_q-8VQKzQNWD8WNw', msg, 'Yahoo! News Pickup - 科学');
         sleep(1000);
+        saveLog();
       }
     });
   });
-  saveLog();
 }
 
 const post = (URL, MSG, USERNAME) => {
